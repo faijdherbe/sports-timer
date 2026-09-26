@@ -1,0 +1,35 @@
+{
+  "name": "sports-timer",
+  "author": "Jeroen Faijdherbe",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Sports Timer",
+    "uuid": "8f3c2a61-5b7e-4d19-9a42-1e6f0c7b3d95",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "diorite",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "ClearPhoto",
+      "PhotoRow",
+      "PhotoData"
+    ]
+  }
+}
